@@ -29,6 +29,7 @@ namespace TestRepo3.Controllers
 
         public ActionResult Test2()
         {
+            ViewBag.Sample = "sample only";
             return View();
         }
     }
